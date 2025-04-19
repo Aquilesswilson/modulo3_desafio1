@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 1 - JavaScript</title>
+    <link rel="stylesheet" href="Assets/css/estilos.css">
+</head>
+
+<body>
+
+    <section id="seccion-principal">
+        <div class="card">
+            <div class="img-card"></div>
+
+            <img class="img" src="Assets/img/auto.png" alt="Imagen 1">
+
+              <h6>Deportivo Amarillo</h6>
+              <p>Precio base: $<span class="precio-inicial"></span> </p>
+        
+              <p>Cantidad:
+                <span class="cantidad">0</span>
+                <button id="mas" onclick="agregarCantidad()">+</button>
+                <button id="menos" onclick="disminuirCantidad()">-</button>
+              </p>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="total-section">
+        <p>Total a pagar: $<span class="valor-total"></span> </p>
+    </div>
+
+    <script src="Assets/js/index.js">
+      
+
+    </script>
+</body>
+</html>
